@@ -12,7 +12,7 @@ import com.stephull.guessinggamesample.repository.QueryRepository;
 @CrossOrigin(origins="http://127.0.0.1:8083")
 @RestController
 @RequestMapping("/api/v1")
-public class GuessingController {
+public class QueryController {
 
 	@Autowired
 	protected QueryRepository queryRepo;
